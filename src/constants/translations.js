@@ -27,6 +27,8 @@ export const translations = {
         timeUp: "Time's Up!",
         breakTime: "Break time!",
         backToWork: "Back to work!",
+        howToUse: "How to Use",
+        howToUseText: "1. Select Mode: Tap the Focus button in the middle to change mode.\n2. Start Focusing: Tap the Play button to start.\n3. Check Stats: Tap the chart icon to see your Focus Calendar.\n4. Customize: Use Settings to change themes and sounds.",
         mon: "Mon", tue: "Tue", wed: "Wed", thu: "Thu", fri: "Fri", sat: "Sat", sun: "Sun",
         quotes: [
             "Keep going.", "Stay focused.", "You got this.", "Don't stop.", "Dream big.",
@@ -63,6 +65,8 @@ export const translations = {
         timeUp: "Süre Doldu!",
         breakTime: "Mola vakti!",
         backToWork: "İş başına!",
+        howToUse: "Nasıl Kullanılır",
+        howToUseText: "1. Mod Seç: Modu değiştirmek için ortadaki Odaklan butonuna basın.\n2. Başlat: Başlatmak için Oynat butonuna basın.\n3. İstatistikler: Odak Takvimini görmek için grafik ikonuna tıkla.\n4. Özelleştir: Temaları ve sesleri değiştirmek için Ayarlar'ı kullan.",
         mon: "Pzt", tue: "Sal", wed: "Çar", thu: "Per", fri: "Cum", sat: "Cmt", sun: "Paz",
         quotes: [
             "Devam et.", "Odaklan.", "Yapabilirsin.", "Durma.", "Büyük düşün.",
@@ -99,6 +103,8 @@ export const translations = {
         timeUp: "انتهى الوقت!",
         breakTime: "وقت الاستراحة!",
         backToWork: "عد للعمل!",
+        howToUse: "كيف تستعمل",
+        howToUseText: "1. اختر الوضع: اضغط على زر التركيز في المنتصف لتغيير الوضع.\n2. ابدأ: اضغط على زر التشغيل للبدء.\n3. الإحصائيات: اضغط على أيقونة الرسم البياني لرؤية تقويم التركيز.\n4. تخصيص: استخدم الإعدادات لتغيير السمات والأصوات.",
         mon: "إثنين", tue: "ثلاثاء", wed: "أربعاء", thu: "خميس", fri: "جمعة", sat: "سبت", sun: "أحد",
         quotes: [
             "استمر.", "ابق مركزاً.", "أنت تستطيع.", "لا تتوقف.", "احلم.",
@@ -135,6 +141,8 @@ export const translations = {
         timeUp: "Zeit ist um!",
         breakTime: "Pausenzeit!",
         backToWork: "Zurück an die Arbeit!",
+        howToUse: "Wie benutzt man",
+        howToUseText: "1. Modus wählen: Drücken Sie die Fokus-Taste in der Mitte, um den Modus zu ändern.\n2. Starten: Drücken Sie die Play-Taste zum Starten.\n3. Statistik: Tippen Sie auf das Diagramm-Symbol.\n4. Anpassen: Ändern Sie Themen und Töne in den Einstellungen.",
         mon: "Mo", tue: "Di", wed: "Mi", thu: "Do", fri: "Fr", sat: "Sa", sun: "So",
         quotes: [
             "Mach weiter.", "Bleib fokussiert.", "Du schaffst das.", "Hör nicht auf.", "Träume groß.",
@@ -171,6 +179,8 @@ export const translations = {
         timeUp: "¡Se acabó el tiempo!",
         breakTime: "¡Hora del descanso!",
         backToWork: "¡A trabajar!",
+        howToUse: "Cómo usar",
+        howToUseText: "1. Elegir modo: Toca el botón de Enfoque en el medio para cambiar de modo.\n2. Iniciar: Presiona el botón de Play para iniciar.\n3. Estadísticas: Toca el icono de gráfico para ver tu calendario.\n4. Personalizar: Usa Configuración para temas y sonidos.",
         mon: "Lun", tue: "Mar", wed: "Mié", thu: "Jue", fri: "Vie", sat: "Sáb", sun: "Dom",
         quotes: [
             "Sigue así.", "Enfócate.", "Tú puedes.", "No pares.", "Sueña.",
@@ -207,6 +217,8 @@ export const translations = {
         timeUp: "Время вышло!",
         breakTime: "Время перерыва!",
         backToWork: "За работу!",
+        howToUse: "Как использовать",
+        howToUseText: "1. Режим: Нажмите кнопку Фокус посередине, чтобы сменить режим.\n2. Старт: Нажмите кнопку Play, чтобы начать.\n3. Статистика: Нажмите иконку графика для календаря.\n4. Настройки: Меняйте темы и звуки в настройках.",
         mon: "Пн", tue: "Вт", wed: "Ср", thu: "Чт", fri: "Пт", sat: "Сб", sun: "Вс",
         quotes: [
             "Продолжай.", "Фокусируйся.", "Ты сможешь.", "Не останавливайся.", "Мечтай.",
@@ -243,6 +255,8 @@ export const translations = {
         timeUp: "Waktu Habis!",
         breakTime: "Waktunya Istirahat!",
         backToWork: "Kembali Bekerja!",
+        howToUse: "Cara Penggunaan",
+        howToUseText: "1. Pilih Mode: Ketuk tombol Fokus di tengah untuk mengubah mode.\n2. Mulai: Tekan tombol Play untuk memulai.\n3. Statistik: Ketuk ikon grafik untuk melihat kalender.\n4. Sesuaikan: Gunakan Pengaturan untuk tema dan suara.",
         mon: "Sen", tue: "Sel", wed: "Rab", thu: "Kam", fri: "Jum", sat: "Sab", sun: "Min",
         quotes: [
             "Lanjutkan.", "Tetap fokus.", "Kamu bisa.", "Jangan berhenti.", "Mimpi besar.",
@@ -279,6 +293,8 @@ export const translations = {
         timeUp: "Temps Écoulé!",
         breakTime: "L'heure de la pause!",
         backToWork: "Au travail!",
+        howToUse: "Comment utiliser",
+        howToUseText: "1. Mode : Appuyez sur le bouton Focus au milieu pour changer de mode.\n2. Démarrer : Appuyez sur le bouton Lecture pour commencer.\n3. Stats : Appuyez sur l'icône graphique.\n4. Personnaliser : Changez les thèmes dans les Paramètres.",
         mon: "Lun", tue: "Mar", wed: "Mer", thu: "Jeu", fri: "Ven", sat: "Sam", sun: "Dim",
         quotes: [
             "Continuez.", "Restez concentré.", "Vous pouvez le faire.", "N'abandonnez pas.", "Rêvez grand.",
@@ -315,6 +331,8 @@ export const translations = {
         timeUp: "समय समाप्त!",
         breakTime: "ब्रेक का समय!",
         backToWork: "काम पर वापस!",
+        howToUse: "कैसे इस्तेमाल करें",
+        howToUseText: "1. मोड चुनें: मोड बदलने के लिए बीच में फोकस बटन दबाएं।\n2. शुरू करें: शुरू करने के लिए प्ले बटन दबाएं।\n3. आँकड़े: कैलेंडर देखने के लिए चार्ट आइकन पर टैप करें।\n4. कस्टमाइज़ करें: सेटिंग्स में थीम और साउंड बदलें।",
         mon: "सोम", tue: "मंगल", wed: "बुध", thu: "गुरु", fri: "शुक्र", sat: "शनि", sun: "रवि",
         quotes: [
             "चलते रहो।", "ध्यान केंद्रित रखें।", "आप कर सकते हैं।", "हार मत मानो।", "बड़ा सोचो।",
@@ -351,6 +369,8 @@ export const translations = {
         timeUp: "시간 종료!",
         breakTime: "휴식 시간!",
         backToWork: "다시 일할 시간!",
+        howToUse: "사용 방법",
+        howToUseText: "1. 모드 선택: 모드를 변경하려면 중앙의 집중 버튼을 누르세요.\n2. 시작: 시작하려면 재생 버튼을 누르세요.\n3. 통계: 차트 아이콘을 탭하여 캘린더를 확인하세요.\n4. 설정: 테마와 소리를 변경하세요.",
         mon: "월", tue: "화", wed: "수", thu: "목", fri: "금", sat: "토", sun: "일",
         quotes: [
             "계속하세요.", "집중하세요.", "할 수 있어요.", "포기하지 마세요.", "크게 꿈꾸세요.",
@@ -387,6 +407,8 @@ export const translations = {
         timeUp: "وقت تمام شد!",
         breakTime: "وقت استراحت!",
         backToWork: "بازگشت به کار!",
+        howToUse: "نحوه استفاده",
+        howToUseText: "1. انتخاب حالت: برای تغییر حالت، دکمه تمرکز در وسط را فشار دهید.\n2. شروع: برای شروع، دکمه پخش را فشار دهید.\n3. آمار: برای دیدن تقویم روی نماد نمودار ضربه بزنید.\n4. شخصی‌سازی: تم‌ها و صداها را در تنظیمات تغییر دهید.",
         mon: "دوشنبه", tue: "سه‌شنبه", wed: "چهارشنبه", thu: "پنج‌شنبه", fri: "جمعه", sat: "شنبه", sun: "یک‌شنبه",
         quotes: [
             "ادامه بده.", "متمرکز بمان.", "تو می‌توانی.", "تسلیم نشو.", "بزرگ فکر کن.",

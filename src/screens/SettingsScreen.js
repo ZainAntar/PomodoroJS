@@ -139,6 +139,14 @@ const SettingsScreen = ({ navigation }) => {
           <SettingRow label={t('longBreakInterval')} value={longBreakInterval} type="number" setter={setLongBreakInterval} />
         </SettingSection>
 
+        <SettingSection title={t('howToUse')} icon="help-circle-outline">
+          <View style={{ padding: 15 }}>
+            <Text style={{ color: currentTheme.text, fontSize: 14, lineHeight: 22, fontFamily: currentTheme.font, opacity: 0.8 }}>
+              {t('howToUseText')}
+            </Text>
+          </View>
+        </SettingSection>
+
         <View style={styles.sectionContainer}>
           <View style={styles.sectionHeader}>
             <Ionicons name="color-palette-outline" size={18} color={currentTheme.accent} style={{ marginRight: 8 }} />

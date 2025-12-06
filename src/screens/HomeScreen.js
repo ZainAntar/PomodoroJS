@@ -330,14 +330,27 @@ const HomeScreen = () => {
               data={presets}
               keyExtractor={(item) => item.id}
               renderItem={({ item }) => (
-                <TouchableOpacity onPress={() => applyPreset(item)} style={[styles.presetRow, { backgroundColor: currentTheme.secondary + '20' }]}>
-                  <Text style={{ color: currentTheme.text, fontWeight: 'bold', fontFamily: currentTheme.font, fontSize: 14 }}>{item.name}</Text>
-                  <View style={{ flexDirection: 'row', gap: 5 }}>
-                    <Text style={{ color: currentTheme.text, opacity: 0.6, fontSize: 11 }}>{item.work}/{item.short}/{item.long}</Text>
+                <TouchableOpacity
+                  onPress={() => applyPreset(item)}
+                  style={[styles.presetRow, {
+                    backgroundColor: currentTheme.secondary + '30', // Slightly more opaque
+                    borderWidth: 1,
+                    borderColor: currentTheme.secondary + '50'
+                  }]}
+                >
+                  <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                    <View style={{ width: 40, height: 40, borderRadius: 20, backgroundColor: currentTheme.accent + '20', justifyContent: 'center', alignItems: 'center' }}>
+                      <Ionicons name="timer-outline" size={20} color={currentTheme.accent} />
+                    </View>
+                    <View>
+                      <Text style={{ color: currentTheme.text, fontWeight: 'bold', fontFamily: currentTheme.font, fontSize: 15 }}>{item.name}</Text>
+                      <Text style={{ color: currentTheme.text, opacity: 0.6, fontSize: 12 }}>{item.work} / {item.short} / {item.long} min</Text>
+                    </View>
                   </View>
+                  <Ionicons name="chevron-forward" size={20} color={currentTheme.text} style={{ opacity: 0.5 }} />
                 </TouchableOpacity>
               )}
-              ItemSeparatorComponent={() => <View style={{ height: 6 }} />}
+              ItemSeparatorComponent={() => <View style={{ height: 10 }} />}
             />
           </View>
         </TouchableOpacity>
