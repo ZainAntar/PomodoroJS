@@ -1,20 +1,13 @@
+import React from 'react';
+import { TimerProvider } from './src/context/TimerContext';
+import AppNavigator from './src/navigation/AppNavigator';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <TimerProvider>
+      <StatusBar style="light" />
+      <AppNavigator />
+    </TimerProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
